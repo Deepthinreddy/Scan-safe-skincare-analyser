@@ -1,0 +1,51 @@
+{
+  "niacinamide": {
+    "benefits": ["reduces acne", "controls oil", "strengthens skin barrier"],
+    "risk": "safe"
+  },
+
+  "glycerin": {
+    "benefits": ["hydrates skin"],
+    "risk": "safe"
+  },
+
+  "salicylic acid": {
+    "benefits": ["treats acne", "clears pores"],
+    "risk": "safe"
+  },
+
+  "fragrance": {
+    "benefits": [],
+    "risk": "may irritate sensitive skin"
+  },
+
+  "denatured alcohol": {
+    "benefits": [],
+    "risk": "may dry and irritate skin"
+  },
+
+  "isopropyl myristate": {
+    "benefits": [],
+    "risk": "may clog pores"
+  },
+
+  "coconut oil": {
+    "benefits": ["moisturizes skin"],
+    "risk": "may clog pores"
+  },
+
+  "panthenol": {
+    "benefits": ["soothes skin", "hydrates"],
+    "risk": "safe"
+  },
+
+  "hyaluronic acid": {
+    "benefits": ["deep hydration"],
+    "risk": "safe"
+  },
+
+  "retinol": {
+    "benefits": ["improves skin texture", "reduces acne"],
+    "risk": "may irritate sensitive skin"
+  }
+}

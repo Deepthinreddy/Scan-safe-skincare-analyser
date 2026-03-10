@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Scan & Safe</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Scan & Safe</h1>
+<p>Skincare Ingredient Analyzer</p>
+
+<form method="POST">
+
+<textarea name="ingredients"
+placeholder="Paste ingredients separated by commas"></textarea>
+
+<br>
+
+<label>Select Skin Type</label>
+
+<select name="skin_type">
+
+<option value="acne">Acne-prone</option>
+<option value="sensitive">Sensitive</option>
+<option value="oily">Oily</option>
+<option value="dry">Dry</option>
+
+</select>
+
+<br><br>
+
+<button type="submit">Analyze Product</button>
+
+</form>
+
+{% if score is not none %}
+
+<h2>Product Safety Score: {{score}} / 10</h2>
+
+<div class="results">
+
+{% for r in results %}
+
+<div class="card">
+
+<h3>{{r.name}}</h3>
+
+<p><b>Benefits:</b></p>
+
+<ul>
+
+{% for b in r.benefits %}
+<li>{{b}}</li>
+{% endfor %}
+
+</ul>
+
+<p><b>Risk:</b> {{r.risk}}</p>
+
+{% if r.warning %}
+<p class="warning">{{r.warning}}</p>
+{% endif %}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endif %}
+
+</div>
+
+</body>
+
+</html>
