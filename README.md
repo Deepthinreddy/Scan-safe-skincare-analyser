@@ -51,6 +51,16 @@ Data: JSON ingredient database
 A working prototype of the analysis engine is included in this repository.
 The prototype demonstrates how ingredient safety scoring works.
 
+## Running the Prototype
+
+Clone the repository and run the Flask application:
+cd prototype
+pip install -r requirements.txt
+python app.py
+Then open:
+http://127.0.0.1:5000/
+
+
 ## Future Improvements
 
 * Barcode scanning for skincare products
