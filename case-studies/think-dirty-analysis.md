@@ -49,7 +49,7 @@ These features help users quickly evaluate products before purchasing.
  
  Transparency Focus-The app promotes transparency in the cosmetics industry.
 
-6. Product Weaknesses
+5. Product Weaknesses
 
    
 Limited Personalization-Ingredient risk is not personalized for specific skin types or conditions such as acne or sensitivity.
@@ -58,7 +58,7 @@ Lack of Contextual Risk-Some ingredients are labeled risky even when they are sa
 
 Limited Skincare Guidance-The app provides safety scores but does not guide users toward better alternatives or personalized skincare routines.
 
-8. Opportunities for Improvement
+6. Opportunities for Improvement
 
 There are several opportunities to improve the product:
 
