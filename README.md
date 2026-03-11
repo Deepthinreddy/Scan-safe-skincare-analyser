@@ -61,6 +61,18 @@ Then open:
 http://127.0.0.1:5000/
 
 
+## Product Research
+
+As part of this project, I analyzed existing ingredient-scanner applications to understand current solutions in the market.
+
+The following product case studies were conducted:
+
+- Think Dirty product analysis
+- Yuka product analysis
+
+These analyses helped identify gaps in existing tools and informed the design of Scan & Safe.
+
+
 ## Future Improvements
 
 * Barcode scanning for skincare products
