@@ -40,6 +40,7 @@ Educational content about cosmetic ingredients
 These features help users quickly evaluate products before purchasing.
 
 4. Product Strengths
+
  Simple User Experience- Scanning a product barcode provides instant results.
 
  Large Ingredient Database-The app contains a large dataset of cosmetic ingredients.
@@ -49,6 +50,8 @@ These features help users quickly evaluate products before purchasing.
  Transparency Focus-The app promotes transparency in the cosmetics industry.
 
 6. Product Weaknesses
+
+   
 Limited Personalization-Ingredient risk is not personalized for specific skin types or conditions such as acne or sensitivity.
 
 Lack of Contextual Risk-Some ingredients are labeled risky even when they are safe in low concentrations.
