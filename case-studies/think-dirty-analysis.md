@@ -41,16 +41,21 @@ These features help users quickly evaluate products before purchasing.
 
 4. Product Strengths
  Simple User Experience- Scanning a product barcode provides instant results.
+
  Large Ingredient Database-The app contains a large dataset of cosmetic ingredients.
+ 
  Consumer Education-Think Dirty helps users learn about ingredients and their potential effects.
+ 
  Transparency Focus-The app promotes transparency in the cosmetics industry.
 
-5. Product Weaknesses
+6. Product Weaknesses
 Limited Personalization-Ingredient risk is not personalized for specific skin types or conditions such as acne or sensitivity.
+
 Lack of Contextual Risk-Some ingredients are labeled risky even when they are safe in low concentrations.
+
 Limited Skincare Guidance-The app provides safety scores but does not guide users toward better alternatives or personalized skincare routines.
 
-6. Opportunities for Improvement
+8. Opportunities for Improvement
 
 There are several opportunities to improve the product:
 
