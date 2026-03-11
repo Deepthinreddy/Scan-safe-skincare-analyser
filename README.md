@@ -1,86 +1,116 @@
+# ScanSafe – AI Skincare Ingredient Analyzer
 
-# Scan & Safe — Skincare Ingredient Risk Analyzer
+## Overview
 
-Scan & Safe is a skincare ingredient analysis tool designed to help users evaluate whether a skincare product is safe for their skin type.
-The system analyzes product ingredients and identifies potential irritants or acne-triggering components, then generates a safety score to help users make better skincare decisions.
+ScanSafe is a skincare ingredient analysis tool that helps users understand the safety of cosmetic product ingredients.
+
+Many skincare products contain complex chemical ingredient lists that are difficult for consumers to interpret. ScanSafe analyzes ingredient lists and identifies potentially harmful or irritating components using a curated ingredient safety database.
+
+The goal is to provide **transparent ingredient insights** so consumers can make safer skincare choices.
+
+---
 
 ## Problem
 
-Most consumers cannot easily understand skincare ingredient labels. Products often contain ingredients that may irritate sensitive skin, clog pores, or worsen acne.
-Because ingredient lists contain complex chemical names, users struggle to determine whether a product is safe for their specific skin concerns.
+Most consumers cannot easily understand cosmetic ingredient labels.
 
+Ingredients such as **fragrance, parabens, or sulfates** may cause irritation or other issues for certain skin types, but they are often hidden in long and technical ingredient lists.
+
+While existing apps like Yuka or ThinkDirty attempt to evaluate products, the decision process behind their ratings is often unclear.
+
+---
 
 ## Solution
 
-Scan & Safe analyzes skincare ingredient lists and generates:
+ScanSafe analyzes ingredient lists and compares them with a safety database to classify ingredients into different safety categories.
 
-* Ingredient safety analysis
-* Personalized warnings based on skin type
-* Acne trigger detection
-* Product safety score
+The system highlights potentially harmful ingredients and generates a simplified safety summary.
 
-This helps users quickly determine whether a product is suitable for their skin.
+---
 
+## Features
 
-## Key Features
+• Ingredient list analysis
+• Detection of potentially harmful ingredients
+• Safety classification for each ingredient
+• Easy-to-understand output summary
+• Transparent ingredient analysis logic
 
-* Ingredient risk analysis
-* Acne-trigger detection
-* Skin-type personalization
-* Product safety scoring algorithm
-* Simple web-based prototype
+---
 
+## Example
 
-## How It Works
+Input Ingredient List:
 
-1. User inputs a list of skincare ingredients
-2. The system matches ingredients with a safety database
-3. Risk levels are evaluated based on skin type
-4. A safety score is generated for the product
+Water, Niacinamide, Glycerin, Fragrance, Sodium Lauryl Sulfate
 
+Analysis Result:
+
+Safe Ingredients
+Water
+Niacinamide
+Glycerin
+
+Potential Irritants
+Fragrance
+Sodium Lauryl Sulfate
+
+Safety Score: 6 / 10
+
+---
 
 ## Tech Stack
 
-Backend: Python (Flask)
-Frontend: HTML, CSS
-Data: JSON ingredient database
+Python
+Pandas
+Natural Language Processing
+Ingredient Safety Dataset
 
+---
 
-## Prototype
+## Project Structure
 
-A working prototype of the analysis engine is included in this repository.
-The prototype demonstrates how ingredient safety scoring works.
+data
+ ingredient_database.csv
 
-## Running the Prototype
+src
+ analyzer.py
 
-Clone the repository and run the Flask application:
-cd prototype
+images
+ demo.png
+
+README.md
+requirements.txt
+
+---
+
+## How to Run
+
+Clone the repository
+
+git clone https://github.com/Deepthinreddy/Scan-safe-skincare-analyser
+
+Install dependencies
+
 pip install -r requirements.txt
-python app.py
-Then open:
-http://127.0.0.1:5000/
 
+Run the analyzer
 
-## Product Research
+python analyzer.py
 
-As part of this project, I analyzed existing ingredient-scanner applications to understand current solutions in the market.
-
-The following product case studies were conducted:
-
-- Think Dirty product analysis
-- Yuka product analysis
-
-These analyses helped identify gaps in existing tools and informed the design of Scan & Safe.
-
+---
 
 ## Future Improvements
 
-* Barcode scanning for skincare products
-* Ingredient detection using OCR
-* Product search database
-* Mobile application version
-* Expanded ingredient safety dataset
+• OCR scanning from product images
+• Mobile application version
+• Personalized skincare recommendations
+• Dermatologist-verified ingredient database
+• Integration with product barcode scanning
 
-## Project Motivation
+---
 
-This project was created as part of a product exploration into improving transparency in skincare ingredients and helping consumers make safer skincare choices.
+## Motivation
+
+This project was created to explore how **AI and data analysis can help consumers better understand skincare products** and make informed decisions about the ingredients they apply to their skin.
+
