@@ -68,6 +68,20 @@ Ingredient Safety Dataset
 
 ---
 
+## System Workflow
+
+User enters ingredient list
+↓
+Ingredients parsed
+↓
+Database lookup
+↓
+Safety classification
+↓
+Result summary generated
+
+---
+
 ## Project Structure
 
 data
