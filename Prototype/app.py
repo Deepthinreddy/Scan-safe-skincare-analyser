@@ -4,7 +4,13 @@ import json
 app = Flask(__name__)
 
 # Load ingredient database
-with open("ingredients.json") as f:
+from pathlib import Path
+import json
+
+BASE_DIR = Path(__file__).parent
+json_path = BASE_DIR / "ingredients.json"
+
+with open(json_path, "r", encoding="utf-8") as f:
     ingredients_db = json.load(f)
 
 def analyze_ingredients(ingredients, skin_type):
